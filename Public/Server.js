@@ -22,7 +22,7 @@ require('../App/Services/DBSetup').init();
 
 /** Configuration of the router list */
 objHttpApp.use('/user',require('../App/Modules/User/Router'));
-// objHttpApp.use('/message',require('../App/Modules/Message/Router'));
+objHttpApp.use('/message',require('../App/Modules/Message/Router'));
 
 
 const PORT = process.env.PORT || 9000;
