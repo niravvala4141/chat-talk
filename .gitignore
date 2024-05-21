@@ -1,2 +1,2 @@
-Storage/Logs/*
+Storage/Logs/*.log
 node_modules
