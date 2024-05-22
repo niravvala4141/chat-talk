@@ -9,6 +9,11 @@ This project is a Node.js application built with Express. It covers the followin
 4. Update chat message already sends message
 
 - Additionally, the project includes `request validation` and a `logger setup` to enhance the robustness and maintainability of the codebase.
+- Added all the database changes into the below path
+  
+  ```bash
+  cd Storage\DBChanges\*
+  ```
 
 ## Installation
 
